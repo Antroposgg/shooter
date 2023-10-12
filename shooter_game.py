@@ -77,7 +77,7 @@ num_fire = 0
 rel_time = False
 
 font.init()
-font1=font.Font(None, 36)
+font1=font.SysFont('Arial', 36)
 font2=font.SysFont('Arial', 36)
 win = font1.render('ПОБЕДА!', True, (255,255,255))
 lose = font1.render('ПРОИГРЫШ!', True, (255,255,255))
